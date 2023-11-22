@@ -15,9 +15,22 @@
 }
 
 body  {
-  background-color: rgb(55, 150, 52);
+  background-color: rgb(10, 50, 0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container  {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 850px;
+  width: 80%;
+  background-color: rgb(55, 150, 52);
+}
+
+.navBar {
+  border-style: double;
 }
