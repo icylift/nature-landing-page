@@ -1,0 +1,23 @@
+
+/* colors 
+  forest green - rgb(55, 150, 52)
+  pakistan green - rgb(10, 50, 0)
+  honey dew - rgb(241, 255, 231)
+  midnight green - rgb(18, 69, 89)
+  airforce blue - rgb(89, 131, 146)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body  {
+  background-color: rgb(55, 150, 52);
+}
+
+.container  {
+  display: flex;
+}
