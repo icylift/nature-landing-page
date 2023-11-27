@@ -25,23 +25,33 @@ body  {
 .container  {
   display: flex;
   flex-direction: column;
-  height: 850px;
+  height: 950px;
   width: 80%;
   background-color: rgb(55, 150, 52);
   border-radius: 5%;
+  background-image: url('images/esaias-tan-6TXtIhu1k4A-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 
 .navBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-style: none;
+  border-style: dotted;
   background-color: #c5c3c6;
   padding: 30px 10%;
-  height: 100px;
+  height: 70px;
 }
 
 .navList  {
   list-style-type: none;
 
+}
+
+.attentionGetter  {
+  background-color: #c5c3c6;
+  border-style: dotted;
 }
