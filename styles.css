@@ -28,12 +28,10 @@ body  {
   height: 850px;
   width: 80%;
   background-color: rgb(55, 150, 52);
-  border-radius: 4%;
+  border-radius: 5%;
 }
 
 .navBar {
-  border-style: double;
-  display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
