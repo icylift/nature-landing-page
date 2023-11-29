@@ -49,8 +49,34 @@ body  {
 
 .navList  {
   list-style-type: none;
+  cursor: pointer;
 
 }
+
+.navList li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #46494c;
+  text-decoration: none;
+  
+
+}
+
+.navList li  {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navList li a {
+  transition: all 0.3 ease 0s;
+}
+
+.navList li a:hover {
+  color: #1985a1;
+
+}
+
+
 
 .attentionGetter  {
   background-color: #c5c3c6;
