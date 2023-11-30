@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
+  
 }
 
 body  {
@@ -79,12 +79,41 @@ body  {
 
 
 .attentionGetter  {
+  display: flex;
+  height: auto;
+  justify-content: center;
   background-color: #c5c3c6;
   border-style: dotted;
+  font-family: 'Vina Sans', sans-serif;
+  font-size: 200px;
+
 }
 
 .description  {
   background-color: #c5c3c6;
   padding: 15px;
 
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.joinUsBtn  {
+  display: flex;
+  width: 15%;
+  justify-content: center;
+  cursor: pointer;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+
+.socialMediaBtns  {
+  background-color: #c5c3c6; 
+  border-style: dotted;
 }
