@@ -32,6 +32,7 @@ body  {
   background-image: url('images/esaias-tan-6TXtIhu1k4A-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 
@@ -45,6 +46,7 @@ body  {
   background-color: #c5c3c6;
   padding: 30px 10%;
   height: 70px;
+  font-family: 'Gloock', sans-serif;
 }
 
 .navList  {
@@ -80,6 +82,7 @@ body  {
 
 .attentionGetter  {
   display: flex;
+  margin: 50px;
   height: auto;
   justify-content: center;
   background-color: #c5c3c6;
@@ -90,9 +93,13 @@ body  {
 }
 
 .description  {
+  margin: 50px;
   background-color: #c5c3c6;
-  padding: 15px;
-
+  padding: 40px;
+  font-family: 'Gloock', sans-serif;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .btnDiv {
@@ -100,7 +107,7 @@ body  {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 50px;
+  margin-bottom: 50px;
 }
 
 .joinUsBtn  {
@@ -109,11 +116,18 @@ body  {
   justify-content: center;
   cursor: pointer;
   padding: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 
 .socialMediaBtns  {
   background-color: #c5c3c6; 
   border-style: dotted;
+  width: 15%;
+  height: 40px;
+}
+
+.socialMediaBtns  i {
+  margin: 8px;
+  size: 15px;
 }
