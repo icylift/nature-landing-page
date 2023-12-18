@@ -2,4 +2,6 @@
 
 const joinUsBtn = document.getElementById("joinUsBtn");
 
-joinUsBtn.addEventListener();
+joinUsBtn.addEventListener(click, () => {
+  window.open("", "_self");
+});
