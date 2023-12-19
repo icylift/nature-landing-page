@@ -2,6 +2,6 @@
 
 const joinUsBtn = document.getElementById("joinUsBtn");
 
-joinUsBtn.addEventListener(click, () => {
-  window.open("form.html", "_self");
-});
+function emailPage() {
+  return window.open("form.html", "_self");
+}
