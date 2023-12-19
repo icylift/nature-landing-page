@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: rgb(241, 255, 231);
   margin: 0;
   padding: 0;
   display: flex;
@@ -18,7 +18,7 @@ body {
 }
 
 form {
-  background-color: #fff;
+  background-color: rgb(55, 150, 52);
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -38,17 +38,19 @@ input {
   box-sizing: border-box;
 }
 
-input[type="submit"] {
-  background-color: #4caf50;
+input {
+  background-color: rgb(89, 131, 146);
   color: #fff;
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
+input:hover {
+  background-color: rgb(89, 131, 146);
 }
 
 
 .close  {
-
+  margin: 10%;
+  padding: 20%;
+  border-radius: 50%;
 }
