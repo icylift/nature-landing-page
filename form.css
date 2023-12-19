@@ -17,6 +17,49 @@ body {
   height: 100vh;
 }
 
+.navBar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-style: dotted;
+  border-radius: 16px;
+  background-color: #c5c3c6;
+  padding: 30px 10%;
+  height: 70px;
+  width: 100%;
+  font-family: 'Gloock', sans-serif;
+}
+
+.navList  {
+  font-size: 20px;
+  list-style-type: none;
+  cursor: pointer;
+
+}
+
+.navList li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #46494c;
+  text-decoration: none;
+  
+
+}
+
+.navList li  {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navList li a {
+  transition: all 0.3 ease 0s;
+}
+
+.navList li a:hover {
+  color: #1985a1;
+
+}
+
 form {
   background-color: rgb(55, 150, 52);
   border-radius: 8px;
