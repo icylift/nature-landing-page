@@ -15,7 +15,7 @@
 }
 
 body  {
-  background-color: rgb(10, 50, 0);
+  background-color: rgb(241, 255, 231);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -36,14 +36,13 @@ body  {
   
 }
 
-
+/*----------------------------------------------  NAV  --------------------------------------------------------- */
 
 .navBar {
   display: flex;
   justify-content: end;
   align-items: center;
-  border-style: dotted;
-  border-radius: 16px;
+  border-style: none;
   background-color: #c5c3c6;
   padding: 30px 10%;
   height: 70px;

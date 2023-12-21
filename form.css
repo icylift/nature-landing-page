@@ -48,9 +48,8 @@ nav  {
   display: flex;
   justify-content: end;
   align-items: center;
-  border-style: dotted;
-  border-radius: 16px;
-  background-color: #c5c3c6;
+  border-style: none;
+  background-color:  rgb(55, 150, 52);
   padding: 30px 10%;
   height: 70px;
   font-family: 'Gloock', sans-serif;
@@ -91,7 +90,7 @@ nav  {
 
 /*----------------------------------------------  FORM  ----------------------------------------------------------------- */
 form {
-  background-color: rgb(55, 150, 52);
+  background-color: #c5c3c6;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -112,13 +111,13 @@ input {
 }
 
 input {
-  background-color: rgb(89, 131, 146);
-  color: #fff;
+  background-color: #ffffff;
+  color: #050505;
   cursor: pointer;
 }
 
 input:hover {
-  background-color: rgb(89, 131, 146);
+  background-color: rgb(228, 232, 233);
 }
 
 
